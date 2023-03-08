@@ -1,0 +1,11 @@
+pip install virtualenv
+python -m venv news-venv
+.\news-venv\Scripts\activate
+pip install jupyter
+ipython kernel install --name "news-venv-kernel" --user
+pip install tqdm
+pip install matplotlib
+pip install pandas
+pip install bs4
+pip install requests
+.\sudoku-venv\Scripts\deactivate
